@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  height: 80vh;
+  background-image: url("./assets/floresta.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+header p {
+  font-size: 1.6rem;
+  color: white;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+header button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: #43b581;
+  transition: all 0.2s ease-in-out;
+}
+header .box-header {
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 200px 0;
+}/*# sourceMappingURL=style.css.map */
