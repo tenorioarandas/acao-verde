@@ -34,8 +34,8 @@ header {
   button {
     background-color: #66bb6a;
     color: white;
-    border: none;
     padding: 18px 30px;
+    border: none;
     border-radius: 30px;
     font-size: 1.6rem;
     font-weight: bold;
@@ -57,10 +57,81 @@ header {
 main {
   .cards {
     background-color: #f1f8e9;
-    height: 100vh;
-    .card {
-      display: inline-block;
-      margin: 200px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+  }
+
+  .forms {
+    background-color: #e8f5e9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      color: #767676;
+      font-size: 1rem;
+      width: 40%;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 40%;
+      height: 60%;
+
+      input {
+        border: none;
+        border-radius: 30px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 18px 30px;
+      }
+
+      select {
+        color: #767676;
+        font-size: 1.4rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        padding: 18px 30px;
+      }
+
+      button {
+        background-color: #66bb6a;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        padding: 18px 30px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #43b581;
+        transition: all 0.2s ease-in-out;
+      }
     }
   }
+}
+
+footer {
+  background-color: #66bb6a;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
 }
