@@ -53,3 +53,14 @@ header {
     padding: 200px 0;
   }
 }
+
+main {
+  .cards {
+    background-color: #f1f8e9;
+    height: 100vh;
+    .card {
+      display: inline-block;
+      margin: 200px 60px;
+    }
+  }
+}

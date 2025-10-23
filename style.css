@@ -45,4 +45,13 @@ header .box-header {
   background: rgba(0, 0, 0, 0.4);
   height: inherit;
   padding: 200px 0;
+}
+
+main .cards {
+  background-color: #f1f8e9;
+  height: 100vh;
+}
+main .cards .card {
+  display: inline-block;
+  margin: 200px 60px;
 }/*# sourceMappingURL=style.css.map */
